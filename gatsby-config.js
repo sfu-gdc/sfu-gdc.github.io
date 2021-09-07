@@ -3,5 +3,6 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "sfugamedev",
   },
+  pathPrefix:"/sfu-gdc.github.io",
   plugins: [],
 };
