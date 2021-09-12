@@ -63,6 +63,7 @@ body {
     background-image: url("res/website-background-1.png");
     background-repeat: no-repeat;
     background-size: cover;
+    image-rendering: crisp-edges;
 
     background-color: #7cf;
     color: white; 
