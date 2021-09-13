@@ -1,14 +1,13 @@
 import * as React from "react"
 import Layout from "../components/Layout"
 
-const AboutPage = () => {
+const CalendarPage = () => {
   return (
-    <Layout at="about">
-      <title>About gamedev club</title>
+    <Layout at="calendar">
       <h1>About gamedev club</h1>
       <p>something about the club</p>
     </Layout>
   )
 }
 
-export default AboutPage
+export default CalendarPage
