@@ -1,4 +1,5 @@
 import * as React from "react"
+import Button from '@material-ui/core/Button';
 
 // styles
 const pageStyles = {
@@ -138,6 +139,8 @@ const IndexPage = () => {
           🎉🎉🎉
         </span>
       </h1>
+      <Button variant="contained" color="primary">Test</Button>
+      <Button variant="contained" color="secondary">Test</Button>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time.{" "}

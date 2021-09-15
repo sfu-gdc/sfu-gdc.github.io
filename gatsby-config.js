@@ -4,5 +4,8 @@ module.exports = {
     title: "sfugamedev",
   },
   pathPrefix:"/sfu-gdc.github.io",
-  plugins: [],
+  plugins: [
+    'custom-mui-theme',
+    'gatsby-plugin-material-ui',
+  ],
 };
