@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://sfugamedev.club",
     title: "sfugamedev",
   },
   pathPrefix:"/sfu-gdc.github.io",
