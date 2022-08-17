@@ -53,11 +53,12 @@ a {
 
 .header li {
     padding-left: 3rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 
 .body {
+    max-width: 1280px;
     width: 75%;
     display: block;
     margin-left: auto;
@@ -68,13 +69,13 @@ a {
 }
 
 .body h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     padding-left: 2rem;
     background-color: #ff6b97;
 }
 
 .body p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 95%;
     margin-left: auto;
 }
@@ -101,7 +102,7 @@ gap: .75rem;
     /* background-color:black; */
     padding: 3rem 1rem;
     
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align:center;
     background-position: center;
     background-repeat: no-repeat;
