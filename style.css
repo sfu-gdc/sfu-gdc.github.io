@@ -22,6 +22,10 @@ a {
 }
 
 
+p a {
+	text-decoration: underline;
+	color: #ff6b97;
+}
 
 
 .header {
@@ -69,6 +73,12 @@ a {
 
 .body h1 {
     font-size: 4rem;
+    padding-left: 2rem;
+    background-color: #ff6b97;
+}
+
+.body h2 {
+    font-size: 3rem;
     padding-left: 2rem;
     background-color: #ff6b97;
 }
