@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/style/common.css">
+        <link rel="stylesheet" href="/style/nav.css">
+        <link rel="stylesheet" href="/style/main.css">
+
+        <title>SFU Game Dev: {% block title %} {% endblock %}</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    </head>
+
+    <body>
+        <div class="header">
+            <ul>
+                <a href="/">
+                    <img id="nav-berry" src="/images/transberry.png">
+                    <li>Home</li>
+                </a>
+
+                <a href="/showcase">
+                    <li>Showcase</li>
+                </a>
+
+                <a href="/events">
+                    <li>Events</li>
+                </a>
+
+                <a href="/getting-started">
+                    <li>Getting Started</li>
+                </a>
+
+                <a href="/resources">
+                    <li>Resources</li>
+                </a>
+
+                <div id="right">
+                    <a href="https://github.com/sfu-gdc/sfu-gdc.github.io" style="margin-left: auto;">
+                        <img class="notPixelArt" src="/images/icons/github.png">
+                    </a>
+                    <a href="https://discord.gg/vrGhVyvM">
+                        <img class="notPixelArt" src="/images/icons/discord.png">
+                    </a>
+                    <a href="https://go.sfss.ca/clubs/134/info">
+                        <img class="notPixelArt" src="/images/icons/sfu.png">
+                    </a>
+                </div>
+            </ul>
+        </div>
+
+        {% block content %} {% endblock %}
+
+        <div class="footer">
+            <ul>
+            <a href="https://lospec.com/palette-list/pear36">like colors?</a>
+            // <a href="https://discord.gg/vrGhVyvM">join our discord</a>
+            // <na>sfu game dev</na>
+            </ul>
+        </div>
+
+    </body>
+</html>

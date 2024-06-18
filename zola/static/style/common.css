@@ -1,0 +1,28 @@
+s {
+    color: #606070;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+p a {
+    text-decoration: underline;
+    color: #ff6b97;
+}
+
+li a {
+    text-decoration: underline;
+    color: #ff6b97;
+}
+
+p a:hover {
+    color: #b65572;
+}
+
+/* --------------------------- */
+
+.notPixelArt {
+	image-rendering: auto;
+}
