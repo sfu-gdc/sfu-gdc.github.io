@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Rick",
+        "description": "Get Ricked",
+        "image": "../images/resources/resource1.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+    {
+        "title": "Roll",
+        "description": "Get Rolled",
+        "image": "../images/resources/resource2.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+    {
+        "title": "LOL",
+        "description": "Get Fucked",
+        "image": "../images/resources/resource3.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    }
+]

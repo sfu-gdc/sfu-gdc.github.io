@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %} Resources {% endblock %}
+
+{% block content %}
+<div class="resources-section">
+    <h1>Resources</h1>
+    <p>Welcome to the resources page! Here you'll find useful links, documents, and other materials related to game development (probably).</p>
+
+    <div class="resource-container">
+        {% for resource in resources %}
+        <div class="resource-card">
+            <a href="{{ resource.link }}">
+                <img src="{{ resource.image }}" alt="{{ resource.title }}" />
+                <h2>{{ resource.title }}</h2>
+                <p>{{ resource.description }}</p>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock content %}
