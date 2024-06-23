@@ -1,7 +1,33 @@
-{% extends "base.html" %}
+{% extends "layouts/one_column.html" %}
 
-{% block content %}
-<h1 class="title">
-  lovely people
-</h1>
-{% endblock content %}
+{% block style %}
+    <link rel="stylesheet" href="/style/members.css">
+{% endblock style %}
+
+{% block pre_content %}
+    <br> <br>
+{% endblock pre_content %}
+
+{% block column %}
+    <h1>
+        <span style="margin-left: -3rem;">Lovely People</span>
+        <em style="font-size: 1.6rem; color:#641a34; vertical-align: middle;">
+            &nbsp; that's you!
+        </em>
+    </h1>
+
+    <p style="background-color: #000; border-radius: 12px; margin: 2rem; padding: 2rem;">
+        <b style="font-size: 2rem;"><u>Get on this page</u></b> <br> 
+        Our club has a lot of great people who hang around and work diligently on projects. If you're <em>definitely</em> a 
+        member and you'd like to join everybody on this list, please fill out this 
+        <a href="https://forms.gle/CpbPugE2gjGYC8qF7">google form</a>!
+    </p>
+
+    <div id="member-list">
+        <!-- generated from a json file -->
+    </div>
+{% endblock column %}
+
+{% block scripts %}
+    <script type="module" src="/js/members.js"></script>
+{% endblock scripts %}

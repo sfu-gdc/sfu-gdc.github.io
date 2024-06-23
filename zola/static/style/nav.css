@@ -6,12 +6,21 @@
 
 #nav-berry {
     width: 3.5rem;
-    margin-right: 0.5rem;
+    margin-right: 0.4rem;
     transition: transform 0.3s;
 }
 
 .header a:hover > #nav-berry {
     transform: rotate(-15deg);
+}
+
+.header .icon {
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.header a:hover .icon {
+    transform: translateY(4px);
 }
 
 .header ul {
