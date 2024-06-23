@@ -12,13 +12,13 @@
         },
         {
             "kind": "Executive",
-            "alias": "Memeboy",
+            "alias": "memeboy17",
             "name": "Evan",
             "discord": "@memeboy17",
-            "link": "https://itch.io/profile/ggsevan",
-            "fav-game": "ULTRAKILL?",
+            "link": "https://steamcommunity.com/groups/galacticglowsoftware",
+            "fav-game": "ULTRAKILL",
             "joined": "Sep 2019",
-            "blurb": "You want to shoot things, right? rend the steel"
+            "blurb": "CEO. Entrepreneur. Rare Fish Collector. Splurtcoin Squintillionaire. Founder of Galactic Glow Software, a group that makes games for humans. Pre-order BASILISK at: <a href=\"https://store.steampowered.com/app/2921630/BASILISK/\">store.steampowered.com/app/2921630/BASILISK/</a>"
         },
         {
             "kind": "Executive",
@@ -29,6 +29,26 @@
             "fav-game": "Hades?",
             "joined": "Mar 2021",
             "blurb": "Our resident physicist and simulation expert. You never know what he's gonna make in godot."
+        },
+        {
+            "kind": "Executive",
+            "alias": "Dr. Apple",
+            "name": "Sepehr",
+            "discord": "@broseph2444",
+            "link": "https://www.sepehrborji.com",
+            "fav-game": "The Last of Us Part 2",
+            "joined": "Sep 2021",
+            "blurb": "\"Wow\" - Owen Wilson"
+        },
+        {
+            "kind": "Executive",
+            "alias": "Geb",
+            "name": "Gabe",
+            "discord": "@gebdev",
+            "link": "https://gebdev.net",
+            "fav-game": "Celeste",
+            "joined": "Sep 2019",
+            "blurb": "Dabbles in game design, music, bad choices, and more! Has all the up to date knowledge about which games were made in Vancouver."
         }
     ]
 }

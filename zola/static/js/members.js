@@ -14,7 +14,7 @@ function renderMember(memberEntry) {
         <p class="details">
             <span>
                 <a class="alias link2" href="${memberEntry["link"]}">${memberEntry["alias"]}</a>
-                <span class="name">(${memberEntry["name"]})</span>
+                <span class="name">(${memberEntry["name"]})</span> <br>
                 <span class="discord-handle">${memberEntry["discord"]}</span>
             </span>
             <span class="right">
