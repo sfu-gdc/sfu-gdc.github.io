@@ -8,8 +8,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="/style/common.css">
-        <link rel="stylesheet" href="/style/nav.css">
         <link rel="stylesheet" href="/style/main.css">
+        <link rel="stylesheet" href="/style/nav.css">
+        <link rel="stylesheet" href="/style/layouts.css">
+
+        {% block style %} {% endblock %}
 
         <title>SFU Game Dev: {% block title %} {% endblock %}</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -18,25 +21,44 @@
     <body>
         <div class="header">
             <ul>
-                <a href="/">
+                <a href="/" style="text-align:end;">
                     <img id="nav-berry" src="/images/transberry.png">
-                    <li>Home</li>
+                    <li >Home</li>
                 </a>
 
                 <a href="/showcase">
-                    <li>Showcase</li>
+                    <li>
+                        <span class="icon">🎲</span>
+                        Showcase
+                    </li>
                 </a>
 
                 <a href="/events">
-                    <li>Events</li>
+                    <li>
+                        <span class="icon">🍍</span>
+                        Events
+                    </li>
+                </a>
+
+                <a href="/members">
+                    <li>
+                        <span class="icon">⛺</span>
+                        Members
+                    </li>
                 </a>
 
                 <a href="/getting-started">
-                    <li>Getting Started</li>
+                    <li>
+                        <span class="icon">📋</span>
+                        Learn
+                    </li>
                 </a>
 
                 <a href="/resources">
-                    <li>Resources</li>
+                    <li>
+                        <span class="icon">📚</span>
+                        Resources
+                    </li>
                 </a>
 
                 <div id="right">
@@ -53,6 +75,8 @@
             </ul>
         </div>
 
+        {% block pre_content %} {% endblock %}
+
         {% block content %} {% endblock %}
 
         <div class="footer">
@@ -62,6 +86,8 @@
             // <na>sfu game dev</na>
             </ul>
         </div>
+
+        {% block scripts %} {% endblock %}
 
     </body>
 </html>
