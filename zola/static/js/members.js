@@ -34,8 +34,7 @@ let json = await response.json();
 
 // sort by name
 json["members"].sort((a, b) => {
-    a["alias"] > b["alias"]
-});
-json["members"].forEach(memberEntry => {
+    return a["alias"] < b["alias"] ? -1 : 1;
+}).forEach(memberEntry => {
     renderMember(memberEntry)
 });

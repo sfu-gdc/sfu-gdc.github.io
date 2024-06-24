@@ -25,8 +25,8 @@
             "alias": "Kye",
             "name": "Kye",
             "discord": "@0strategist0",
-            "link": "https://itch.io/profile/0strategist0",
-            "fav-game": "Hades?",
+            "link": "https://0strategist0.itch.io/",
+            "fav-game": "Outer Wilds",
             "joined": "Mar 2021",
             "blurb": "Our resident physicist and simulation expert. You never know what he's gonna make in godot."
         },
@@ -49,6 +49,16 @@
             "fav-game": "Celeste",
             "joined": "Sep 2019",
             "blurb": "Dabbles in game design, music, bad choices, and more! Has all the up to date knowledge about which games were made in Vancouver."
+        },
+        {
+            "kind": "Member",
+            "alias": "Dardik",
+            "name": "Darrick",
+            "discord": "@dardik",
+            "link": "https://www.linkedin.com/in/darrick-gunawan/",
+            "fav-game": "Team Fortress 2",
+            "joined": "Sep 2021",
+            "blurb": "Hey everyone! I'm Darrick, a Computing Science student at SFU. I play ALOT of FPS games and then hate myself for it afterwards. I don't make games very often but I help made this site (probably)!"
         }
     ]
 }

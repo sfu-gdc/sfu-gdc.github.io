@@ -35,14 +35,15 @@
 }
 
 .person .kind .fav-game {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #641a34;
     margin-left: auto;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
 }
 
 .person .details {
     font-family: 'Finlandica';
+    font-size: 1.3rem;
 
     display: flex;
     margin-bottom: 1rem;
@@ -65,6 +66,6 @@
 }
 
 .person .blurb {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
 }
