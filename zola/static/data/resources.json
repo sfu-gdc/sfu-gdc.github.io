@@ -1,20 +1,75 @@
-[
-    {
-        "title": "Rick",
-        "description": "Get Ricked",
-        "image": "../images/resources/resource1.jpg",
-        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-    },
-    {
-        "title": "Roll",
-        "description": "Get Rolled",
-        "image": "../images/resources/resource2.jpg",
-        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-    },
-    {
-        "title": "LOL",
-        "description": "Get Fucked",
-        "image": "../images/resources/resource3.jpg",
-        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-    }
-]
+{
+    "resources": [
+        {
+            "title": "Rick",
+            "description": "Get Ricked",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["videos", "free resources"]
+        },
+        {
+            "title": "Roll",
+            "description": "Get Rolled",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["music"]
+        },
+        {
+            "title": "LOL",
+            "description": "Get Fucked",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["sfx"]
+        },
+        {
+            "title": "Rick",
+            "description": "Get Ricked",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["videos", "free resources"]
+        },
+        {
+            "title": "Roll",
+            "description": "Get Rolled",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["music"]
+        },
+        {
+            "title": "LOL",
+            "description": "Get Fucked",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["sfx"]
+        },
+        {
+            "title": "Rick",
+            "description": "Get Ricked",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["videos", "free resources"]
+        },
+        {
+            "title": "Roll",
+            "description": "Get Rolled",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["music"]
+        },
+        {
+            "title": "LOL",
+            "description": "Get Fucked",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["sfx"]
+        },
+        {
+            "title": "Rick",
+            "description": "Get Ricked",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["videos", "free resources"]
+        }
+    ]
+}
+

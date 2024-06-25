@@ -1,22 +1,30 @@
-{% extends "base.html" %}
+{% extends "layouts/base.html" %}
 
-{% block title %} Resources {% endblock %}
+{% block style %}
+    <link rel="stylesheet" href="/style/resources.css">
+{% endblock style %}
 
 {% block content %}
 <div class="resources-section">
     <h1>Resources</h1>
-    <p>Welcome to the resources page! Here you'll find useful links, documents, and other materials related to game development (probably).</p>
-
-    <div class="resource-container">
-        {% for resource in resources %}
-        <div class="resource-card">
-            <a href="{{ resource.link }}">
-                <img src="{{ resource.image }}" alt="{{ resource.title }}" />
-                <h2>{{ resource.title }}</h2>
-                <p>{{ resource.description }}</p>
-            </a>
+    <div class="filter-toggle">
+        <button id="toggle-filters">Filter by tags</button>
+        <div id="tag-filters" class="filter-container">
+            <label><input type="checkbox" value="game dev talks"> Game Dev Talks</label>
+            <label><input type="checkbox" value="videos"> Videos</label>
+            <label><input type="checkbox" value="free resources"> Free Resources</label>
+            <label><input type="checkbox" value="art"> Art</label>
+            <label><input type="checkbox" value="music"> Music</label>
+            <label><input type="checkbox" value="sfx"> SFX</label>
+            <label><input type="checkbox" value="shaders"> Shaders</label>
         </div>
-        {% endfor %}
+    </div>
+    <div id="resource-list" class="resources-container">
+        <!-- resource cards here -->
     </div>
 </div>
 {% endblock content %}
+
+{% block scripts %}
+    <script type="module" src="/js/resources.js"></script>
+{% endblock scripts %}
