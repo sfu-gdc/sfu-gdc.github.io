@@ -1,0 +1,64 @@
+{
+    "members": [
+        {
+            "kind": "Member",
+            "alias": "M3D",
+            "name": "Alex",
+            "discord": "@.m3d",
+            "link": "https://itch.io/profile/mothware",
+            "fav-game": "Metroid Prime?",
+            "joined": "Sep 2020",
+            "blurb": "Works on super cool <s>game maker</s> <s>monogame</s> FNA projects and <a href=\"https://www.youtube.com/@AQGamedev\">makes videos</a> about them"
+        },
+        {
+            "kind": "Executive",
+            "alias": "memeboy17",
+            "name": "Evan",
+            "discord": "@memeboy17",
+            "link": "https://steamcommunity.com/groups/galacticglowsoftware",
+            "fav-game": "ULTRAKILL",
+            "joined": "Sep 2019",
+            "blurb": "CEO. Entrepreneur. Rare Fish Collector. Splurtcoin Squintillionaire. Founder of Galactic Glow Software, a group that makes games for humans. Pre-order BASILISK at: <a href=\"https://store.steampowered.com/app/2921630/BASILISK/\">store.steampowered.com/app/2921630/BASILISK/</a>"
+        },
+        {
+            "kind": "Executive",
+            "alias": "Kye",
+            "name": "Kye",
+            "discord": "@0strategist0",
+            "link": "https://0strategist0.itch.io/",
+            "fav-game": "Outer Wilds",
+            "joined": "Mar 2021",
+            "blurb": "Our resident physicist and simulation expert. You never know what he's gonna make in godot."
+        },
+        {
+            "kind": "Executive",
+            "alias": "Dr. Apple",
+            "name": "Sepehr",
+            "discord": "@broseph2444",
+            "link": "https://www.sepehrborji.com",
+            "fav-game": "The Last of Us Part 2",
+            "joined": "Sep 2021",
+            "blurb": "\"Wow\" - Owen Wilson"
+        },
+        {
+            "kind": "Executive",
+            "alias": "Geb",
+            "name": "Gabe",
+            "discord": "@gebdev",
+            "link": "https://gebdev.net",
+            "fav-game": "Celeste",
+            "joined": "Sep 2019",
+            "blurb": "Dabbles in game design, music, bad choices, and more! Has all the up to date knowledge about which games were made in Vancouver."
+        },
+        {
+            "kind": "Member",
+            "alias": "Dardik",
+            "name": "Darrick",
+            "discord": "@dardik",
+            "link": "https://www.linkedin.com/in/darrick-gunawan/",
+            "fav-game": "Team Fortress 2",
+            "joined": "Sep 2021",
+            "blurb": "Hey everyone! I'm Darrick, a Computing Science student at SFU. I play ALOT of FPS games and then hate myself for it afterwards. I don't make games very often but I help made this site (probably)!"
+        }
+    ]
+}
