@@ -5,7 +5,6 @@
             "alias": "M3D",
             "name": "Alex",
             "discord": "@.m3d",
-            "discord_id": "",
             "link": "https://itch.io/profile/mothware",
             "fav-game": "Metroid Prime?",
             "joined": "Sep 2020",
@@ -90,6 +89,16 @@
             "blurb": "Makes whatever he wants and tries to justify it later. Has a special interest in computer graphics and spends his time rediscovering 20-year-old 3D rendering techniques. Serves as the Game Master for role-playing games set on <a href=\"https://arlowatts.com/torys/\">Torys</a>, a fantasy setting he is continuously developing. Loves the SFU Game Developer's Club and everyone in it.",
             "fav-game": "Wizardry: Proving Grounds of the Mad Overlord",
             "joined": "Sep 2022"
+        },
+        {
+            "kind": "Member",
+            "discord": "@ekam_n",
+            "alias": "Ekam",
+            "name": "Ekam",
+            "link": "https://github.com/ekam-n",
+            "blurb": "Just starting out in game development. Currently being assassinated by SIAT (game!) projects but trying to learn and make something small in Unity on the side.",
+            "fav-game": "Rocket League",
+            "joined": "Jun 2024"
         }
     ]
 }
