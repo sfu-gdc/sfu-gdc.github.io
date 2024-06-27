@@ -6,7 +6,15 @@
 
 {% block content %}
 <div class="resources-section">
-    <h1>Resources</h1>
+    <h1 class="resources-title">
+        <span>Resources</span>
+    </h1>
+    <p class="page-description">
+        <b class="description-title"><u>Have something to add?</u></b> <br>
+        The following are a bunch of resources members and executives from the club have handpicked.
+        If you’d like to add something, please submit it to this 
+        <a href="https://forms.gle/your-google-form-link">google form</a>.
+    </p>
     <div class="filter-toggle">
         <button id="toggle-filters">Filter by tags</button>
         <div id="tag-filters" class="filter-container">
@@ -20,7 +28,7 @@
         </div>
     </div>
     <div id="resource-list" class="resources-container">
-        <!-- resource cards here -->
+        <!-- cards -->
     </div>
 </div>
 {% endblock content %}

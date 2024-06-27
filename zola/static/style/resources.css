@@ -1,7 +1,28 @@
-.resources-section h1 {
+.resources-section {
+    padding: 2rem;
+}
+
+.resources-title {
+    background-color: #ff6b97;
     text-align: center;
     margin-bottom: 2rem;
-    font-size: 2.5rem; /* adjust if needed */
+    font-size: 2.5rem; 
+    line-height: 3rem;
+    padding: 0.5rem;
+}
+
+.page-description {
+    background-color: #000;
+    border-radius: 12px;
+    margin: 2rem;
+    padding: 2rem;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.35;
+}
+
+.description-title {
+    font-size: 2rem;
 }
 
 .filter-toggle {
@@ -27,7 +48,7 @@
 .filter-container {
     display: none; 
     margin-top: 1rem;
-    text-align: center;
+    text-align: center; 
 }
 
 .filter-container label {
@@ -80,11 +101,13 @@
 }
 
 .resource-title {
+    font-family: 'Finlandica';
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
 .resource-description {
+    font-family: 'Finlandica';
     font-size: 1rem;
     color: #7e7e8f;
 }
