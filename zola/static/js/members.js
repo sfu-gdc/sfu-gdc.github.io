@@ -74,11 +74,9 @@ function renderMember(memberEntry) {
     let bgColor = memberEntry["kind"] == "Executive" ? "#4da6ff" : "#b0305c";
     bgColor = memberEntry["kind"] == "Past Executive" ? "#4b5bab" : bgColor;
 
-    let colorCombination = pfpColorCombinations[cyrb53(memberEntry["alias"]) % pfpColorCombinations.length];
-
     let html = `<div class="person2">
         <div class="top">
-            <img style="filter: saturate(${colorCombination[0]}) hue-rotate(${colorCombination[1]});" src="/images/member-default.png">
+            <img src="/images/members/default${((cyrb53(memberEntry["alias"]) + cyrb53(memberEntry["joined"])) % 17) + 1}.png">
             <div class="info">
                 <div class="banner" style="background-color: ${bgColor}">
                     <span class="role">${memberEntry["kind"]}</span>
