@@ -65,7 +65,7 @@ function getLevel(memberEntry) {
     return level;
 }
 
-function renderMember(memberEntry) {
+function renderMember(memberEntry, targetElement) {
     let level = getLevel(memberEntry);
 
     let fgGameColor = memberEntry["kind"] == "Executive" ? "#473b78" : "#641a34";
@@ -76,9 +76,9 @@ function renderMember(memberEntry) {
 
     let html = `<div class="person2">
         <div class="top">
-            <img src="/images/members/default${((cyrb53(memberEntry["alias"]) + cyrb53(memberEntry["joined"])) % 17) + 1}.png">
+            <img src="/images/members/default${((cyrb53(memberEntry["alias"]) + cyrb53(memberEntry["discord"])) % 24) + 1}.png">
             <div class="info">
-                <div class="banner" style="background-color: ${bgColor}">
+                <div class="banner" id="${memberEntry["alias"]}" style="background-color: ${bgColor}">
                     <span class="role">${memberEntry["kind"]}</span>
                     <span class="fav-game" style="color: ${fgGameColor}">(${memberEntry["fav-game"]})</span>
                 </div>
@@ -100,15 +100,51 @@ function renderMember(memberEntry) {
         </p>
     </div>`;
 
-    document.getElementById("member-list").innerHTML += html;
+    targetElement.innerHTML += html;
 }
 
-let response = await fetch("/data/members.json");
-let json = await response.json();
+function addMemberSmall(memberEntry, targetElement) {
+    let teaserBlurb = memberEntry["blurb"].split(" ").length > 15
+                    ? (memberEntry["blurb"].split(" ").slice(0, 15).join(" ") + "...")
+                    : memberEntry["blurb"];
+    let html = `
+        <li style="margin-bottom: 10px; word-wrap: break-word;">
+            <a style="color: #ffe478;" href="/members#${memberEntry["alias"]}">${memberEntry["alias"]}</a>
+            -- ${teaserBlurb}
+        </li>
+    `;
+    targetElement.innerHTML += html;
+}
 
-// sort by name
-json["members"].sort((a, b) => {
-    return a["alias"] < b["alias"] ? -1 : 1;
-}).forEach(memberEntry => {
-    renderMember(memberEntry)
-});
+export async function onMembersPage() {
+    let response = await fetch("/data/members.json");
+    let json = await response.json();
+    
+    // sort by name
+    json["members"].sort((a, b) => {
+        return a["alias"] < b["alias"] ? -1 : 1;
+    }).forEach(memberEntry => {
+        renderMember(memberEntry, document.getElementById("member-list"))
+    });
+
+    // this is actually important for the webpage to move to hash links
+    location.href = location.href;
+}
+
+export async function onMainPage() {
+    let response = await fetch("/data/members.json");
+    let json = await response.json();
+    
+    // sort by name
+    let numMembers = json["members"].length;
+    let addedMembers = [];
+    while (addedMembers.length < 3) {
+        let rand = Math.floor(Math.random() * numMembers);
+        if (addedMembers.includes(rand)) {
+            continue
+        } else {
+            addMemberSmall(json["members"][rand], document.getElementById("lovely-people"));
+            addedMembers.push(rand);
+        }
+    }
+}

@@ -1,8 +1,15 @@
+* {
+    /* sorry if this messes something up in the future... */
+    scroll-margin-top: 2rem;
+}
+
 #member-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2rem;
+    align-items: stretch;
+    justify-content: center;
+
     padding-left: 2rem;
 }
 
@@ -83,11 +90,19 @@
 /* ------------------------------ */
 
 .person2 {
+    flex: 1;
+
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+
+    min-width: 28rem;
     width: calc(50% - 4rem);
     background-color: #212028;
     border-radius: 12px;
 
     padding: 1rem;
+
+    word-wrap: break-word;
 }
 
 .person2 .top {
