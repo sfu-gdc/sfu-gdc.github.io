@@ -78,7 +78,7 @@ function renderMember(memberEntry, targetElement) {
         <div class="top">
             <img src="/images/members/default${((cyrb53(memberEntry["alias"]) + cyrb53(memberEntry["discord"])) % 24) + 1}.png">
             <div class="info">
-                <div class="banner" id="${memberEntry["alias"]}" style="background-color: ${bgColor}">
+                <div class="banner anchor" id="${memberEntry["alias"]}" style="background-color: ${bgColor}">
                     <span class="role">${memberEntry["kind"]}</span>
                     <span class="fav-game" style="color: ${fgGameColor}">(${memberEntry["fav-game"]})</span>
                 </div>
@@ -128,7 +128,8 @@ export async function onMembersPage() {
     });
 
     // this is actually important for the webpage to move to hash links
-    location.href = location.href;
+    if (location.href.split("#").length > 1)
+        location.href = location.href;
 }
 
 export async function onMainPage() {
