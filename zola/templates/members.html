@@ -32,4 +32,8 @@
 
 {% block scripts %}
     <script type="module" src="/js/members.js"></script>
+    <script type="module">
+        import { onMembersPage } from "/js/members.js";
+        window.onload = onMembersPage;
+    </script>
 {% endblock scripts %}

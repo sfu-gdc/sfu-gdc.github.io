@@ -170,13 +170,11 @@
     </ul>
 
     <h3>Lovely People</h3>
-    <ul style="font-size: 1.2rem;">
-        <li style="margin-bottom: 10px;"><a style="color: #ffe478;" href="https://itch.io/profile/mothware">Alex</a> -- works on super cool <s>game maker</s> <s>monogame</s> FNA projects and <a href="https://www.youtube.com/@AQGamedev">makes videos</a> about them</li>
-        <li style="margin-bottom: 10px;"><a style="color: #ffe478;" href="https://itch.io/profile/0strategist0">Kye</a> -- our resident physicist and simulation expert. You never know what he's gonna make in godot.</li>
-        <li style="margin-bottom: 10px;"><a style="color: #ffe478;" href="https://itch.io/profile/ggsevan">Evan</a> -- you want to shoot things, right? rend the steel</li>
+    <ul id="lovely-people" style="font-size: 1.2rem;">
+        <!-- populated by js -->
     </ul>
     <p style="font-size: 1.2rem; background-color: #ffe478; border-radius: 12px; padding: 4px 8px; text-align: center; width: 200px; margin: auto;">
-        <a href="/members" style="color: #000; text-decoration: none;">more lovely people →</a>
+        <a href="/members" style="color: #000; text-decoration: none;">more lovely people 🡥</a>
     </p>
     <br>
 
@@ -205,4 +203,9 @@
 
 {% block scripts %}
     <script src="/js/mainPageGame.js"></script>
+    <script type="module" src="/js/members.js"></script>
+    <script type="module">
+        import { onMainPage } from "/js/members.js";
+        window.onload = onMainPage;
+    </script>
 {% endblock scripts %}
