@@ -74,33 +74,68 @@ function renderMember(memberEntry, targetElement) {
     let bgColor = memberEntry["kind"] == "Executive" ? "#4da6ff" : "#b0305c";
     bgColor = memberEntry["kind"] == "Past Executive" ? "#4b5bab" : bgColor;
 
-    let html = `<div class="person2">
-        <div class="top">
-            <img src="/images/members/default${((cyrb53(memberEntry["alias"]) + cyrb53(memberEntry["discord"])) % 24) + 1}.png">
-            <div class="info">
-                <div class="banner anchor" id="${memberEntry["alias"]}" style="background-color: ${bgColor}">
-                    <span class="role">${memberEntry["kind"]}</span>
-                    <span class="fav-game" style="color: ${fgGameColor}">(${memberEntry["fav-game"]})</span>
-                </div>
-                <p class="details">
-                    <span class="left">
-                        <a class="alias link2" href="${memberEntry["link"]}">${memberEntry["alias"]}</a>
-                        <span class="name">(${memberEntry["name"]})</span> <br>
-                        <span class="discord-handle">${memberEntry["discord"]}</span>
-                    </span>
-                    <span class="right">
-                        <span class="level" style="color: ${getLevelColour(level)}">Level ${level}</span>
-                        <span class="date-joined">Joined ${memberEntry["joined"]}</span>
-                    </span>
-                </p>
-            </div>
+    let html = document.createElement('div');
+    html.classList = ["person2"];
+    html.innerHTML = `<div class="top">
+        <div class="before-img">
+            <img src="/images/members/default${((cyrb53(memberEntry["alias"]) + cyrb53(memberEntry["kind"])) % 27) + 1}.png">
         </div>
-        <p class="blurb">
-            ${memberEntry["blurb"]}
-        </p>
-    </div>`;
+        <div class="info">
+            <div class="banner anchor" id="${memberEntry["alias"]}" style="background-color: ${bgColor}">
+                <span class="role">${memberEntry["kind"]}</span>
+                <span class="fav-game" style="color: ${fgGameColor}">(${memberEntry["fav-game"]})</span>
+            </div>
+            <p class="details">
+                <span class="left">
+                    <a class="alias link2" href="${memberEntry["link"]}">${memberEntry["alias"]}</a>
+                    <span class="name">(${memberEntry["name"]})</span> <br>
+                    <span class="discord-handle">${memberEntry["discord"]}</span>
+                </span>
+                <span class="right">
+                    <span class="level" style="color: ${getLevelColour(level)}">Level ${level}</span>
+                    <span class="date-joined">Joined ${memberEntry["joined"]}</span>
+                </span>
+            </p>
+        </div>
+    </div>
+    <p class="blurb">
+        ${memberEntry["blurb"]}
+    </p>`;
 
-    targetElement.innerHTML += html;
+    let divElement = html.children[0].children[0];
+
+    var xDeg = 0;
+    var yDeg = 0;
+    divElement.addEventListener("pointermove", (event) => {
+        let elementXPos = html.children[0].children[0].getBoundingClientRect().left;
+        let elementYPos = html.children[0].children[0].getBoundingClientRect().top;
+
+        let relativeX = event.clientX - elementXPos - divElement.children[0].offsetWidth/2;
+        let relativeY = event.clientY - elementYPos - divElement.children[0].offsetHeight/2;
+      
+        let newXDeg = -relativeX * 0.15;
+        let newYDeg = -relativeY * 0.15;
+
+        xDeg = (10*xDeg + newXDeg) / 11;
+        yDeg = (10*yDeg + newYDeg) / 11;
+
+        let brightnessX = 1 - Math.cos(3.1415 / 6) + Math.cos((3.1415 / 6) - (3.1415 * xDeg / 180));
+        let brightnessY = 1 - Math.cos(3.1415 / 4) + Math.cos((3.1415 / 4) - (3.1415 * yDeg / 180));
+
+        divElement.children[0].style.transition = `scale 0.5s`;
+        divElement.children[0].style.transform = `perspective(100px) translateX(${-xDeg}px) translateY(${-yDeg}px) rotateY(${-xDeg}deg) rotateX(${yDeg}deg)`;
+        divElement.children[0].style.filter = `brightness(${Math.pow((brightnessX + brightnessY) / 2, 2)})`;
+        divElement.children[0].style.scale = `1.2`;
+    });
+    divElement.addEventListener("pointerleave", (event) => {
+        xDeg = 0;
+        yDeg = 0;
+        divElement.children[0].style.transition = `scale 0.5s, transform 0.5s, filter 0.5s`;
+        divElement.children[0].style.transform = `perspective(200px) rotateY(0deg) rotateX(0deg)`;
+        divElement.children[0].style.filter = `brightness(1.0)`;
+        divElement.children[0].style.scale = `1.0`;
+    })
+    targetElement.appendChild(html);
 }
 
 function addMemberSmall(memberEntry, targetElement) {

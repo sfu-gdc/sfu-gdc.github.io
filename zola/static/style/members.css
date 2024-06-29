@@ -34,10 +34,13 @@
     display: flex;
 }
 
+.person2 .before-img {
+    margin-right: 1rem;
+}
+
 .person2 img {
     width: 8rem;
     height: 8rem;
-    margin-right: 1rem;
 
     border-radius: 1rem;
 }
