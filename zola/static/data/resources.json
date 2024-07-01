@@ -1,0 +1,75 @@
+{
+    "resources": [
+        {
+            "title": "Rick",
+            "description": "Get Ricked",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["videos", "free resources"]
+        },
+        {
+            "title": "Roll",
+            "description": "Get Rolled",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["music"]
+        },
+        {
+            "title": "LOL",
+            "description": "Get Fucked",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["sfx"]
+        },
+        {
+            "title": "Rick",
+            "description": "Get Ricked",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["videos", "free resources"]
+        },
+        {
+            "title": "Roll",
+            "description": "Get Rolled",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["music"]
+        },
+        {
+            "title": "LOL",
+            "description": "Get Fucked",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["sfx"]
+        },
+        {
+            "title": "Rick",
+            "description": "Get Ricked",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["videos", "free resources"]
+        },
+        {
+            "title": "Roll",
+            "description": "Get Rolled",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["music"]
+        },
+        {
+            "title": "LOL",
+            "description": "Get Fucked",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["sfx"]
+        },
+        {
+            "title": "Rick",
+            "description": "Get Ricked",
+            "image": "../images/resources/rickroll.png",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "tags": ["videos", "free resources"]
+        }
+    ]
+}
+

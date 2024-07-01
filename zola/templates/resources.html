@@ -1,0 +1,38 @@
+{% extends "layouts/base.html" %}
+
+{% block style %}
+    <link rel="stylesheet" href="/style/resources.css">
+{% endblock style %}
+
+{% block content %}
+<div class="resources-section">
+    <h1 class="resources-title">
+        <span>Resources</span>
+    </h1>
+    <p class="page-description">
+        <b class="description-title"><u>Have something to add?</u></b> <br>
+        The following are a bunch of resources members and executives from the club have handpicked.
+        If you’d like to add something, please submit it to this 
+        <a href="https://forms.gle/your-google-form-link">google form</a>.
+    </p>
+    <div class="filter-toggle">
+        <button id="toggle-filters">Filter by tags</button>
+        <div id="tag-filters" class="filter-container">
+            <label><input type="checkbox" value="game dev talks"> Game Dev Talks</label>
+            <label><input type="checkbox" value="videos"> Videos</label>
+            <label><input type="checkbox" value="free resources"> Free Resources</label>
+            <label><input type="checkbox" value="art"> Art</label>
+            <label><input type="checkbox" value="music"> Music</label>
+            <label><input type="checkbox" value="sfx"> SFX</label>
+            <label><input type="checkbox" value="shaders"> Shaders</label>
+        </div>
+    </div>
+    <div id="resource-list" class="resources-container">
+        <!-- cards -->
+    </div>
+</div>
+{% endblock content %}
+
+{% block scripts %}
+    <script type="module" src="/js/resources.js"></script>
+{% endblock scripts %}
