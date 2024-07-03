@@ -116,8 +116,8 @@ function renderMember(memberEntry, targetElement) {
         let newXDeg = -relativeX * 0.15;
         let newYDeg = -relativeY * 0.15;
 
-        xDeg = (10*xDeg + newXDeg) / 11;
-        yDeg = (10*yDeg + newYDeg) / 11;
+        xDeg = (5*xDeg + newXDeg) / 6;
+        yDeg = (5*yDeg + newYDeg) / 6;
 
         let brightnessX = 1 - Math.cos(3.1415 / 6) + Math.cos((3.1415 / 6) - (3.1415 * xDeg / 180));
         let brightnessY = 1 - Math.cos(3.1415 / 4) + Math.cos((3.1415 / 4) - (3.1415 * yDeg / 180));
