@@ -80,6 +80,8 @@
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
+
+    min-height: 16rem;
 }
 
 .resource-card {
