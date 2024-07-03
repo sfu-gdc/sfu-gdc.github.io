@@ -1,74 +1,18 @@
 {
     "resources": [
         {
-            "title": "Rick",
-            "description": "Get Ricked",
-            "image": "../images/resources/rickroll.png",
-            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "tags": ["videos", "free resources"]
+            "title": "Extra Credits",
+            "description": "If you're interested in learning game design, the best all encompassing resource is Extra Credits' series on game design which covers a massive range of topics from power creep to aesthetics.",
+            "image": "../images/resources/default.png",
+            "link": "https://www.youtube.com/@extrahistory/playlists",
+            "tags": ["videos", "game design", "getting started"]
         },
-        {
-            "title": "Roll",
-            "description": "Get Rolled",
-            "image": "../images/resources/rickroll.png",
-            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "tags": ["music"]
-        },
-        {
-            "title": "LOL",
-            "description": "Get Fucked",
-            "image": "../images/resources/rickroll.png",
-            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "tags": ["sfx"]
-        },
-        {
-            "title": "Rick",
-            "description": "Get Ricked",
-            "image": "../images/resources/rickroll.png",
-            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "tags": ["videos", "free resources"]
-        },
-        {
-            "title": "Roll",
-            "description": "Get Rolled",
-            "image": "../images/resources/rickroll.png",
-            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "tags": ["music"]
-        },
-        {
-            "title": "LOL",
-            "description": "Get Fucked",
-            "image": "../images/resources/rickroll.png",
-            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "tags": ["sfx"]
-        },
-        {
-            "title": "Rick",
-            "description": "Get Ricked",
-            "image": "../images/resources/rickroll.png",
-            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "tags": ["videos", "free resources"]
-        },
-        {
-            "title": "Roll",
-            "description": "Get Rolled",
-            "image": "../images/resources/rickroll.png",
-            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "tags": ["music"]
-        },
-        {
-            "title": "LOL",
-            "description": "Get Fucked",
-            "image": "../images/resources/rickroll.png",
-            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "tags": ["sfx"]
-        },
-        {
-            "title": "Rick",
-            "description": "Get Ricked",
-            "image": "../images/resources/rickroll.png",
-            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "tags": ["videos", "free resources"]
+        { 
+            "title": "The Design of Everyday Things",
+            "description": "A book that's useful in almost all aspects of game design, despite being more suited to general design principles. You'll learn a lot!",
+            "image": "../images/resources/default.png",
+            "link": "https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things",
+            "tags": ["book", "game design", "ux design"]
         }
     ]
 }

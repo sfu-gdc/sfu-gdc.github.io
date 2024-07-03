@@ -6,7 +6,7 @@ function renderResource(resourceEntry) {
             <img src="${resourceEntry.image}" alt="${resourceEntry.title}" class="resource-image">
             <div class="resource-info">
                 <h2 class="resource-title">${resourceEntry.title}</h2>
-                <p class="resource-description">${resourceEntry.description}</p>
+                <p class="resource-description" lang="en">${resourceEntry.description}</p>
             </div>
         </a>
     </div>`;
