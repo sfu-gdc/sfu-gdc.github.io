@@ -1,5 +1,7 @@
 {% extends "layouts/one_column.html" %}
 
+{% block title %} Members {% endblock %}
+
 {% block style %}
     <link rel="stylesheet" href="/style/members.css">
 {% endblock style %}
@@ -10,7 +12,7 @@
 
 {% block column %}
     <h1 style="margin-bottom: 0;">
-        <span style="margin-left: -3rem;">Lovely People</span>
+        <span style="margin-left: -3rem;">Lovely People &nbsp;⛺</span>
         <em style="font-size: 1.6rem; color:#641a34; vertical-align: middle;">
             &nbsp; that's you!
         </em>
@@ -18,9 +20,9 @@
 
     <p class="page-notice">
         <b style="font-size: 2rem;"><u>Get on this page</u></b> <br> 
-        Our club has a lot of great people who hang around and work diligently on projects. If you're
-        <em>definitely</em> a member and you'd like to join everybody on this list, please fill out
-        this <a href="https://forms.gle/CpbPugE2gjGYC8qF7">google form</a>!
+        Our club has a lot of great people who hang around and work diligently on projects. If you're <em>definitely</em> a 
+        member and you'd like to join everybody on this list, please fill out this 
+        <a href="https://forms.gle/CpbPugE2gjGYC8qF7">google form</a>!
     </p>
 
     <div id="member-list">
@@ -30,4 +32,8 @@
 
 {% block scripts %}
     <script type="module" src="/js/members.js"></script>
+    <script type="module">
+        import { onMembersPage } from "/js/members.js";
+        window.onload = onMembersPage;
+    </script>
 {% endblock scripts %}
