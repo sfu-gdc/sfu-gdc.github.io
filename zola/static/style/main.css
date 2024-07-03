@@ -82,6 +82,18 @@
     padding: 0 3rem 0 3rem;
 }
 
+.body p.page-notice {
+    margin: 2rem;
+    padding: 2rem !important;
+    border-radius: 12px;
+
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.35;
+
+    background-color: #000;
+}
+
 .body blockquote {
     display: inline-block;
     

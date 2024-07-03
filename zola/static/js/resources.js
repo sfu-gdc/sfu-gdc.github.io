@@ -35,13 +35,13 @@ async function loadResources() {
     filterResources([]); 
 }
 
-document.getElementById("tag-filters").addEventListener("change", function() {
-    const selectedTags = Array.from(document.querySelectorAll("#tag-filters input:checked")).map(checkbox => checkbox.value);
+document.getElementById("filter-container").addEventListener("change", function() {
+    const selectedTags = Array.from(document.querySelectorAll("#filter-container input:checked")).map(checkbox => checkbox.value);
     filterResources(selectedTags);
 });
 
 document.getElementById("toggle-filters").addEventListener("click", function() {
-    const filterContainer = document.getElementById("tag-filters");
+    const filterContainer = document.getElementById("filter-container");
     if (filterContainer.style.display === "none" || filterContainer.style.display === "") {
         filterContainer.style.display = "block";
     } else {
