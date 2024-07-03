@@ -72,7 +72,7 @@
     width: 100%;
 }
 
-.body p {
+p {
     font-family: "Source Sans 3", sans-serif;
     font-size: 1.5rem;
     line-height: 1.35;
@@ -80,6 +80,18 @@
 
     margin-left: auto;
     padding: 0 3rem 0 3rem;
+}
+
+p.page-notice {
+    margin: 2rem;
+    padding: 2rem !important;
+    border-radius: 12px;
+
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.35;
+
+    background-color: #000;
 }
 
 .body blockquote {
@@ -105,7 +117,7 @@
     margin-left: 3rem;
 }
 
-.body .col1 {
+.col1 {
     display: inline-block;
     width: 75%;
     
@@ -114,7 +126,7 @@
     background-color: #2b2936;
 }
 
-.body .col1 h1, .body .col h1 {
+.col1 h1, .col h1 {
     display: inline-block;
 
     margin: 0;
@@ -132,7 +144,7 @@
     background-color: #ff6b97;
 }
 
-.body .col1 h2, .body .col h2 {
+.col1 h2, .col h2 {
     display: inline-block;
     margin-bottom: 1rem;
 
@@ -148,31 +160,31 @@
     background-color: #b0305c;
 }
 
-.body .col1 h3 {
+.col1 h3 {
     font-size: 2.5rem;
     padding-left: 2.5rem;
     background-color: #e36956;
 }
 
-.body .col1 h4 {
+.col1 h4 {
     font-size: 2.25rem;
     padding-left: 3rem;
     background-color: #ffb570;
 }
 
-.body .col1 h5 {
+.col1 h5 {
     font-size: 2rem;
     padding-left: 3.5rem;
     background-color: #8fde5d;
 }
 
-.body .col1 h6 {
+.col1 h6 {
     font-size: 1.75rem;
     padding-left: 4rem;
     background-color: #4da6ff;
 }
 
-.body .col2 h3 {
+.col2 h3 {
     display: inline-block;
     margin: 0;
 
@@ -188,7 +200,7 @@
     background-color: #000000;
 }
 
-.body .col2 {
+.col2 {
     display: inline-block;
     width: 25%;
     background-color: #2b2936;
@@ -196,22 +208,22 @@
     padding-left: 2em;
 }
 
-.body .col2 ul {
+.col2 ul {
     margin-left: 0rem;
 }
 
-.body .col2 li {
+.col2 li {
     margin-right: 0.5rem;
 }
 
-.body .col2 #sword {
+.col2 #sword {
     width: 90%;
     padding: 5%;
 }
 
 /* ---------------------------------- */
 
-.body .col {
+.col {
     display: inline-block;
 
     max-width: 1280px;
