@@ -19,7 +19,7 @@ function filterResources(selectedTags) {
     resourceList.innerHTML = '';
 
     const filteredResources = selectedTags.length === 0 
-        ? resources 
+        ? resources
         : resources.filter(resource => selectedTags.every(tag => resource.tags.includes(tag)));
 
     filteredResources.forEach(resourceEntry => {
@@ -43,7 +43,7 @@ document.getElementById("filter-container").addEventListener("change", function(
 document.getElementById("toggle-filters").addEventListener("click", function() {
     const filterContainer = document.getElementById("filter-container");
     if (filterContainer.style.display === "none" || filterContainer.style.display === "") {
-        filterContainer.style.display = "block";
+        filterContainer.style.display = "flex";
     } else {
         filterContainer.style.display = "none";
     }

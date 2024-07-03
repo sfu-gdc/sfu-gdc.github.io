@@ -24,19 +24,53 @@
 }
 
 #filter-container {
-    display: none; 
-    margin-top: 1rem;
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin-top: 0.75rem;
     text-align: center; 
 }
 
 #filter-container label {
-    display: inline-block;
-    margin-right: 1rem;
+    padding: 0.3rem 0.9rem;
+    margin-right: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 12px;
+
     font-size: 1rem;
+
+    cursor: pointer;
+
+    text-shadow: 2px 2px 6px #2120284b;
+    background-color: #80366b;
+
+    transition: background-color 0.2s;
+}
+
+#filter-container label:hover {
+    background-color: #bd4882;
+}
+
+#filter-container input[type="checkbox"]:checked::before {
+    background-color: #00AEEF !important;
 }
 
 #filter-container input[type="checkbox"] {
-    margin-right: 0.5rem;
+    display: inline-block;
+
+    margin: 0 0.25rem 0 0;
+
+    transform: translateY(0.06rem) scale(1.1);
+
+    cursor: pointer;
+
+    color: #80366b;
+    accent-color: #ffe478;
+}
+
+#filter-container label:has(input:checked) {
+    background-color: #ff6b97 !important;
 }
 
 /* ---------------------------------- */
