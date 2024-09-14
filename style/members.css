@@ -1,0 +1,124 @@
+.anchor {
+    scroll-margin-top: 2rem;
+}
+
+#member-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+
+    padding-left: 2rem;
+}
+
+/* ------------------------------ */
+
+.person2 {
+    flex: 1;
+
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+
+    min-width: 28rem;
+    width: calc(50% - 4rem);
+    background-color: #212028;
+    border-radius: 12px;
+
+    padding: 1rem;
+
+    word-wrap: break-word;
+}
+
+.person2 .top {
+    display: flex;
+}
+
+.person2 .before-img {
+    margin-right: 1rem;
+}
+
+.person2 img {
+    width: 8rem;
+    height: 8rem;
+
+    border-radius: 1rem;
+}
+
+.person2 .info {
+    display: inline-block;
+    width: calc(100% - 8rem - 1rem);
+}
+
+.person2 .banner {
+    display: flex;
+    margin-bottom: 1rem;
+    padding-left: 1.0rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+
+    width: calc(100% - 1rem);
+
+    border-radius: 12px;
+
+    background-color: #b0305c;
+}
+
+.person2 .banner .role {
+    font-family: 'Finlandica';
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    height: 2.5rem;
+}
+
+.person2 .banner .fav-game {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: 1rem;
+
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    text-align: end;
+
+    color: #641a34;
+
+    vertical-align: middle;
+}
+
+.person2 .details {
+    display: flex;
+
+    margin: 0;
+    padding: 0 1rem;
+
+    font-family: 'Finlandica';
+    font-size: 1.2rem;
+}
+
+.person2 .details .name {
+    margin-left: auto;
+    color: #7e7e8f;
+}
+
+.person2 .details .right {
+    text-align: end;
+    margin-left: auto;
+}
+
+.person2 .details .level {
+    display: block;
+}
+
+.person2 .details .date-joined {
+    color: #7e7e8f;
+}
+
+.person2 .blurb {
+    margin-top: 1.0rem;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+
+    font-size: 1.2rem;
+}

@@ -1,0 +1,114 @@
+{
+    "members": [
+        {
+            "kind": "Member",
+            "alias": "Alex",
+            "name": "Alex",
+            "discord": "@.m3d",
+            "link": "https://www.youtube.com/@AQGamedev",
+            "fav-game": "Metroid: Fusion",
+            "joined": "Sep 2020",
+            "blurb": "Created <a href=\"https://store.steampowered.com/app/1368410/PSYCRON/\">PSYCRON</a>, and worked on Kill It With Fire VR. Currently working on <a href=\"https://store.steampowered.com/app/2332060/BLIGHTWRECK/\">BLIGHTWRECK</a>. Loves working on custom game engines, and writing music with guitars and synthesizers."
+        },
+        {
+            "kind": "Executive",
+            "alias": "memeboy17",
+            "name": "Evan",
+            "discord": "@memeboy17",
+            "link": "https://steamcommunity.com/groups/galacticglowsoftware",
+            "fav-game": "ULTRAKILL",
+            "joined": "Sep 2019",
+            "blurb": "CEO. Entrepreneur. Rare Fish Collector. Splurtcoin Squintillionaire. Founder of Galactic Glow Software, a group that makes games for humans. Pre-order BASILISK at: <a href=\"https://store.steampowered.com/app/2921630/BASILISK/\">store.steampowered.com/app/2921630/BASILISK/</a>"
+        },
+        {
+            "kind": "Executive",
+            "alias": "Kye",
+            "name": "Kye",
+            "discord": "@0strategist0",
+            "link": "https://0strategist0.itch.io/",
+            "fav-game": "Outer Wilds",
+            "joined": "Mar 2021",
+            "blurb": "Our resident physicist and simulation expert. You never know what he's gonna make in godot."
+        },
+        {
+            "kind": "Executive",
+            "alias": "Dr. Apple",
+            "name": "Sepehr",
+            "discord": "@broseph2444",
+            "link": "https://www.sepehrborji.com",
+            "fav-game": "The Last of Us Part 2",
+            "joined": "Sep 2021",
+            "blurb": "\"Wow\" - Owen Wilson"
+        },
+        {
+            "kind": "Executive",
+            "alias": "Geb",
+            "name": "Gabe",
+            "discord": "@gebdev",
+            "link": "https://gebdev.net",
+            "fav-game": "Celeste",
+            "joined": "Sep 2019",
+            "blurb": "Dabbles in game design, music, bad choices, and more! Has all the up to date knowledge about which games were made in Vancouver."
+        },
+        {
+            "kind": "Member",
+            "alias": "Dardik",
+            "name": "Darrick",
+            "discord": "@dardik",
+            "link": "https://www.linkedin.com/in/darrick-gunawan/",
+            "fav-game": "Team Fortress 2",
+            "joined": "Sep 2021",
+            "blurb": "Hey everyone! I'm Darrick, a Computing Science student at SFU. I play ALOT of FPS games and then hate myself for it afterwards. I don't make games very often but I help made this site (probably)!"
+        }, 
+        {
+            "kind": "Executive",
+            "discord": "@lingo56",
+            "alias": "lingo",
+            "name": "Peter",
+            "link": "https://lingo56.itch.io/",
+            "blurb": "Programmer 🧑‍💻 Improving at graphics dev 🏋️ Markov chains are ruling the world 😔",
+            "fav-game": "Rez",
+            "joined": "Mar 2021"
+        },
+        {
+            "kind": "Member",
+            "discord": "@serenadensetsu",
+            "alias": "Serenade",
+            "name": "Dave",
+            "link": "https://psycheflame.substack.com/",
+            "blurb": "Writer and RPG enthusiast interested in story and self-expression through character customization. Fan of character classes and various turn-based systems. Favourite visual artists include Tatsuya Yoshikawa, Akiman and Yoshitaka Amano. Vanillaware and Mistwalker are two of my favourite studios.",
+            "fav-game": "The Legend of Dragoon",
+            "joined": "Oct 2022"
+        },
+        {
+            "kind": "Member",
+            "discord": "@arlopw",
+            "alias": "Arlo",
+            "name": "Arlo",
+            "link": "https://arlowatts.com/",
+            "blurb": "Makes whatever he wants and tries to justify it later. Has a special interest in computer graphics and spends his time rediscovering 20-year-old 3D rendering techniques. Serves as the Game Master for role-playing games set on <a href=\"https://arlowatts.com/torys/\">Torys</a>, a fantasy setting he is continuously developing. Loves the SFU Game Developer's Club and everyone in it.",
+            "fav-game": "Wizardry: Proving Grounds of the Mad Overlord",
+            "joined": "Sep 2022"
+        },
+        {
+            "kind": "Member",
+            "discord": "@ekam_n",
+            "alias": "Ekam",
+            "name": "Ekam",
+            "link": "https://github.com/ekam-n",
+            "blurb": "Just starting out in game development. Currently being assassinated by SIAT (game!) projects but trying to learn and make something small in Unity on the side.",
+            "fav-game": "Rocket League",
+            "joined": "Jun 2024"
+        },
+        {
+            "kind": "Member",
+            "discord": "@kwiper",
+            "alias": "Jonathan",
+            "name": "Jonathan",
+            "link": "https://kwiper.github.io/",
+            "blurb": "this is a bio.",
+            "fav-game": "Persona 5",
+            "joined": "Sep 2021"
+        }
+    ]
+}

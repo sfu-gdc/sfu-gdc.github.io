@@ -1,0 +1,156 @@
+.filter-toggle {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.filter-toggle button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    font-family: 'Finlandica';
+    font-size: 1.2rem;
+
+    text-shadow: 2px 2px 6px #2120284b;
+
+    color: white;
+    background-color: #ff6b97;
+}
+
+.filter-toggle button:hover {
+    background-color: #80366b;
+}
+
+#filter-container {
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin: 0 2rem;
+
+    margin-top: 0.75rem;
+    text-align: center; 
+}
+
+#filter-container label {
+    padding: 0.3rem 0.9rem;
+    margin-right: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 12px;
+
+    font-size: 1rem;
+
+    cursor: pointer;
+
+    text-shadow: 2px 2px 6px #2120284b;
+    background-color: #80366b;
+
+    transition: background-color 0.2s;
+}
+
+#filter-container label:hover {
+    background-color: #bd4882;
+}
+
+#filter-container input[type="checkbox"]:checked::before {
+    background-color: #00AEEF !important;
+}
+
+#filter-container input[type="checkbox"] {
+    display: inline-block;
+
+    margin: 0 0.25rem 0 0;
+
+    transform: translateY(0.06rem) scale(1.1);
+
+    cursor: pointer;
+
+    color: #80366b;
+    accent-color: #ffe478;
+}
+
+#filter-container label:has(input:checked) {
+    background-color: #ff6b97 !important;
+}
+
+/* ---------------------------------- */
+
+.resources-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+
+    min-height: 16rem;
+}
+
+.resource-card {
+    background-color: #212028;
+    border-radius: 12px;
+    width: 21rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    color: white;
+}
+
+.resource-card a:hover h2 {
+    text-decoration: underline;
+}
+
+.resource-card h2 {
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    line-height: 1.1;
+
+    width: calc(100% - 2rem);
+
+    font-size: 2rem;
+}
+.resource-card p {
+    margin: 1rem 0 0 0;
+    padding: 0;
+}
+
+.resource-card:hover {
+    transform: scale(1.05);
+}
+
+.resource-card a {
+    color: white;
+    text-decoration: none;
+}
+
+.resource-image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.resource-info {
+    padding: 0 0.5rem;
+}
+
+.resource-title {
+    font-family: 'Finlandica';
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.resource-description {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.2;
+
+    hyphens: auto;
+
+    color: #7e7e8f;
+}
