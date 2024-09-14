@@ -2,13 +2,13 @@
     "members": [
         {
             "kind": "Member",
-            "alias": "M3D",
+            "alias": "Alex",
             "name": "Alex",
             "discord": "@.m3d",
-            "link": "https://itch.io/profile/mothware",
-            "fav-game": "Metroid Prime?",
+            "link": "https://www.youtube.com/@AQGamedev",
+            "fav-game": "Metroid: Fusion",
             "joined": "Sep 2020",
-            "blurb": "Works on super cool <s>game maker</s> <s>monogame</s> FNA projects and <a href=\"https://www.youtube.com/@AQGamedev\">makes videos</a> about them"
+            "blurb": "Created <a href=\"https://store.steampowered.com/app/1368410/PSYCRON/\">PSYCRON</a>, and worked on Kill It With Fire VR. Currently working on <a href=\"https://store.steampowered.com/app/2332060/BLIGHTWRECK/\">BLIGHTWRECK</a>. Loves working on custom game engines, and writing music with guitars and synthesizers."
         },
         {
             "kind": "Executive",
@@ -61,7 +61,7 @@
             "blurb": "Hey everyone! I'm Darrick, a Computing Science student at SFU. I play ALOT of FPS games and then hate myself for it afterwards. I don't make games very often but I help made this site (probably)!"
         }, 
         {
-            "kind": "Member",
+            "kind": "Executive",
             "discord": "@lingo56",
             "alias": "lingo",
             "name": "Peter",
@@ -99,6 +99,16 @@
             "blurb": "Just starting out in game development. Currently being assassinated by SIAT (game!) projects but trying to learn and make something small in Unity on the side.",
             "fav-game": "Rocket League",
             "joined": "Jun 2024"
+        },
+        {
+            "kind": "Member",
+            "discord": "@kwiper",
+            "alias": "Jonathan",
+            "name": "Jonathan",
+            "link": "https://kwiper.github.io/",
+            "blurb": "this is a bio.",
+            "fav-game": "Persona 5",
+            "joined": "Sep 2021"
         }
     ]
 }
