@@ -59,6 +59,46 @@
             "fav-game": "Team Fortress 2",
             "joined": "Sep 2021",
             "blurb": "Hey everyone! I'm Darrick, a Computing Science student at SFU. I play ALOT of FPS games and then hate myself for it afterwards. I don't make games very often but I help made this site (probably)!"
+        }, 
+        {
+            "kind": "Member",
+            "discord": "@lingo56",
+            "alias": "lingo",
+            "name": "Peter",
+            "link": "https://lingo56.itch.io/",
+            "blurb": "Programmer 🧑‍💻 Improving at graphics dev 🏋️ Markov chains are ruling the world 😔",
+            "fav-game": "Rez",
+            "joined": "Mar 2021"
+        },
+        {
+            "kind": "Member",
+            "discord": "@serenadensetsu",
+            "alias": "Serenade",
+            "name": "Dave",
+            "link": "https://psycheflame.substack.com/",
+            "blurb": "Writer and roleplaying game enthusiast, with a love of music. I'm there for the story and self-expression through character building. Psychology and Philosophy background. Favourite artists include Tatsuya Yoshikawa, Akiman and Yoshitaka Amano. Vanillaware and Mistwalker two favourite studios. If I were a D&D 5e character I'd be a Lore Bard.",
+            "fav-game": "The Legend of Dragoon",
+            "joined": "Oct 2022"
+        },
+        {
+            "kind": "Member",
+            "discord": "@arlopw",
+            "alias": "Arlo",
+            "name": "Arlo",
+            "link": "https://arlowatts.com/",
+            "blurb": "Makes whatever he wants and tries to justify it later. Has a special interest in computer graphics and spends his time rediscovering 20-year-old 3D rendering techniques. Serves as the Game Master for role-playing games set on <a href=\"https://arlowatts.com/torys/\">Torys</a>, a fantasy setting he is continuously developing. Loves the SFU Game Developer's Club and everyone in it.",
+            "fav-game": "Wizardry: Proving Grounds of the Mad Overlord",
+            "joined": "Sep 2022"
+        },
+        {
+            "kind": "Member",
+            "discord": "@ekam_n",
+            "alias": "Ekam",
+            "name": "Ekam",
+            "link": "https://github.com/ekam-n",
+            "blurb": "Just starting out in game development. Currently being assassinated by SIAT (game!) projects but trying to learn and make something small in Unity on the side.",
+            "fav-game": "Rocket League",
+            "joined": "Jun 2024"
         }
     ]
 }
