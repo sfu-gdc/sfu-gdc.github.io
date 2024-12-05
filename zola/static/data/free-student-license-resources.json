@@ -1,0 +1,121 @@
+{
+    "name": "DavePack",
+    "meta": {
+        "licenses": {
+            "Free": "This license means you can use the tool for commercial uses for free, like selling a game.",
+            "FreeCompile": "This license means you can use the tool for commercial uses for free, like selling a game. However, you must compile the tool from public source code yourself.",
+            "FreeStudent": "This license means you can use the tool for free while at SFU, AND sell products made using it.",
+            "StudentNonCommercial": "This license means you can use the tool for free while at SFU, but you cannot sell anything made using it."
+        }
+    },
+    "resources": {
+        "Programming" : [
+            {
+                "name": "JetBrains",
+                "link": "https://www.jetbrains.com/community/education/#students",
+                "as_of": "Dec 2024",
+                "license": "StudentNonCommercial",
+                "tools": [ "IntelliJ", "CLion", "PyCharm" ]
+            },
+            {
+                "name": "Github Education",
+                "link": "https://github.com/education",
+                "as_of": "Dec 2024",
+                "license": "FreeStudent",
+                "tools": [ "Github Pro", "and more" ]
+            },
+            {
+                "name": "Unity Student",
+                "link": "https://unity.com/legal/editor-terms-of-service/software",
+                "as_of": "Dec 2024",
+                "license": "Complicated but reasonably free",
+                "tools": [ "Unity" ]
+            }
+        ],
+        "3D Art": [
+            {
+                "name": "Adobe Substance",
+                "link": "https://substance3d.adobe.com/education/",
+                "as_of": "Dec 2024",
+                "license": "StudentNonCommercial",
+                "tools": [ "Substance 3D Painter", "Substance 3D Sampler", "Substance 3D Designer", "Substance 3D Stager", "Substance 3D Modeler" ]
+            },
+            {
+                "name": "Autodesk",
+                "link": "https://www.autodesk.com/education/edu-software/overview",
+                "as_of": "Dec 2024",
+                "license": "StudentNonCommercial",
+                "tools": [ "3DS Max", "Maya", "AutoCAD", "and more" ]
+            },
+            {
+                "name": "Blender",
+                "link": "https://www.blender.org/about/license/",
+                "as_of": "always",
+                "license": "Free",
+                "tools": [ "Blender" ]
+            }
+        ],
+        "2D Art": [
+            {
+                "name": "GIMP",
+                "link": "https://www.gimp.org/docs/userfaq.html#can-i-use-gimp-commercially",
+                "as_of": "always",
+                "license": "Free",
+                "tools": [ "GIMP 2" ]
+            },
+            {
+                "name": "Krita",
+                "link": "https://krita.org/en/about/license/",
+                "as_of": "always",
+                "license": "Free",
+                "tools": [ "Krita" ]
+            },
+            {
+                "name": "Aesprite",
+                "link": "https://www.aseprite.org/faq/#can-i-sell-graphics-created-with-aseprite",
+                "as_of": "always",
+                "license": "FreeCompile",
+                "tools": [ "Aesprite" ]
+            }
+        ],
+        "Music / Audio": [
+            {
+                "name": "Reaper",
+                "link": "https://www.reaper.fm/download.php",
+                "as_of": "Dec 2024",
+                "license": "Eternal Trial (Free)",
+                "tools": [ "Reaper" ]
+            },
+            {
+                "name": "Cakewalk",
+                "link": "https://www.bandlab.com/products/cakewalk",
+                "as_of": "Dec 2024",
+                "license": "Free",
+                "tools": [ "Cakewalk (Classic)" ]
+            },
+            {
+                "name": "Audacity",
+                "link": "https://www.audacityteam.org/FAQ/",
+                "as_of": "always",
+                "license": "Free",
+                "tools": [ "Audacity" ]
+            }
+        ],
+        "Game Development": [
+            {
+                "name": "ldtk",
+                "link": "https://ldtk.io/download/",
+                "as_of": "always",
+                "license": "Free",
+                "tools": [ "LDTK" ]
+            },
+            {
+                "name": "Tiled",
+                "link": "https://thorbjorn.itch.io/tiled",
+                "as_of": "always",
+                "license": "Free",
+                "tools": [ "Tiled" ]
+            }
+        ]
+    }
+}
