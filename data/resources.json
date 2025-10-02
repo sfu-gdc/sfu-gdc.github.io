@@ -1,0 +1,89 @@
+{
+    "resources": [
+        {
+            "title": "Extra Credits",
+            "description": "If you're interested in learning game design, the best all encompassing resource is Extra Credits' series on game design which covers a massive range of topics from power creep to aesthetics.",
+            "image": "../images/resources/default.png",
+            "link": "https://www.youtube.com/@extrahistory/playlists",
+            "tags": ["videos", "game design", "getting started"]
+        },
+        { 
+            "title": "The Design of Everyday Things",
+            "description": "A book that's useful in almost all aspects of game design, despite being more suited to general design principles. You'll learn a lot!",
+            "image": "https://upload.wikimedia.org/wikipedia/en/3/33/The_Design_of_Everyday_Things_%28cover_1988%29.jpg",
+            "link": "https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things",
+            "tags": ["book", "game design", "ux design"]
+        },
+        { 
+            "title": "IAT 210 Course Notes",
+            "description": "Written by the legendary <b>jleung51</b>, these notes on IAT 210 are a good substitute for those in a hurry. If you have the opportunity, you should definitely take IAT 210!",
+            "image": "../images/resources/default.png",
+            "link": "https://github.com/jleung51-coursework/notes/blob/master/iat-210-introduction-to-game-studies/iat-210.pdf",
+            "tags": ["game design", "ux design", "getting started"]
+        },
+        { 
+            "title": "Löve2D",
+            "description": "My personal recommendation to someone who knows how to program with at least one language (read stack overflow) is to jump into Löve2D with Lua. This approach is very simple and surprisingly performant. <br><br> It's a bit cumbersome to export your game when finished, however intermediate testing is quite easy.",
+            "image": "https://avatars.githubusercontent.com/u/283107?s=400&v=4",
+            "link": "https://love2d.org/",
+            "tags": ["programming"]
+        },
+        { 
+            "title": "Unity",
+            "description": "An extremely popular starting place is Unity with C#, which is quite popular as far as starting points go. (Also what I used to learn) Unity is free for non-commercial purposes and has a killer set of tutorials and examples.",
+            "image": "https://avatars.githubusercontent.com/u/426196?s=400&v=4",
+            "link": "https://learn.unity.com/",
+            "tags": ["getting started", "programming"]
+        },
+        { 
+            "title": "Pygame",
+            "description": "if you have zero programming experience and want to learn programming while making games, I <b>hesitantly</b> recommend learning python with Pygame. Once you get the hang of programming, quickly move on from Pygame as there are much better engines in other languages.",
+            "image": "https://avatars.githubusercontent.com/u/20628127?s=200&v=4",
+            "link": "https://www.pygame.org/wiki/GettingStarted",
+            "tags": ["getting started", "programming"]
+        },
+        { 
+            "title": "Godot",
+            "description": "The rising star in game engines is Godot, which is a solid free alternative to Unity with quite a few other reasons to use it. It features bindings for many different languages, including a python-based one. If programming language is your most important factor, then you've got many choices here!",
+            "image": "https://avatars.githubusercontent.com/u/6318500?s=200&v=4",
+            "link": "https://docs.godotengine.org/en/latest/tutorials/scripting/gdextension/what_is_gdextension.html#supported-languages",
+            "tags": ["getting started", "programming"]
+        },
+        { 
+            "title": "Secret Music Advice",
+            "description": "If you already have experience writing music, the following criteria is helpful in reflecting on the decisions you make when composing, mixing, and designing instruments & sounds. <br> <br> No matter where you lay in the spectrum of music, reading through this will help you improve your skills!",
+            "image": "../images/resources/default.png",
+            "link": "https://taintedlogic.newgrounds.com/news/post/989340",
+            "tags": ["music", "blog"]
+        },
+        { 
+            "title": "Beepbox",
+            "description": "A simple but powerful tool for quickly prototyping melodies or for composers who are just starting out. It is particularly useful for pitch bending and writing chiptune music.",
+            "image": "../images/resources/default.png",
+            "link": "https://www.beepbox.co/ ",
+            "tags": ["getting started", "music"]
+        },
+        { 
+            "title": "Intro to Pixel Art",
+            "description": "If you're interested in pixel art, this series of tutorials is very informative. It also teaches a few skills that can be applied to any form of visual art.",
+            "image": "https://miro.medium.com/v2/resize:fit:610/format:webp/1*8hOSIYTOWBg6ZZ5U9AkNcg.png",
+            "link": "https://medium.com/pixel-grimoire/how-to-start-making-pixel-art-2d1e31a5ceab",
+            "tags": ["getting started", "art", "blog"]
+        },
+        { 
+            "title": "Intro to Blender",
+            "description": "If you're interested in 3D art, check out these tutorials for Blender, an open source 3D modeling program ",
+            "image": "https://avatars.githubusercontent.com/u/52924476?s=400&v=4",
+            "link": "https://www.blender.org/support/tutorials/",
+            "tags": ["art", "getting started"]
+        },
+        { 
+            "title": "Coding Adventures",
+            "description": "Sebastian Lague's coding adventure series is excellent. Full stop.",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_knyJw3jL_6AGomJmGe3VvfIYxWzZC9Y8z90Liru4G0UHM=s160-c-k-c0x00ffffff-no-rj",
+            "link": "https://www.youtube.com/user/Cercopithecan",
+            "tags": ["videos"]
+        }
+    ]
+}
+

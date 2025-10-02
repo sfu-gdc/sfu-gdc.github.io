@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Finlandica';
+    src: url('/font/Finlandica-Medium.ttf') format('truetype');
+}
+
+/* --------------------------- */
+
+body {
+    font-family: 'Finlandica';
+    margin: 0;
+
+    color: white;
+
+    background-color: #212028;
+	background-repeat: tile;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 65%;
+	image-rendering: pixelated;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/bg.png);
+}
+
+s {
+    color: #606070;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+p a, li a, blockquote a {
+    text-decoration: underline;
+    color: #ff6b97;
+}
+
+p a:hover {
+    color: #b65572;
+}
+
+/* --------------------------- */
+
+.link2 {
+    color: #ffe478;
+}
+
+.link2:hover {
+    color: #f2a65e;
+}
+
+.notPixelArt {
+	image-rendering: auto;
+}
+
+.no-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}

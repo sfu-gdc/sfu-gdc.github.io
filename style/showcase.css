@@ -1,0 +1,39 @@
+.showcaseContainer {
+    width: 92%;
+    margin-left: auto;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+
+}
+
+.showcaseContainer h2 {
+    font-size: 2.5rem;
+}
+
+.showcaseGrid {
+    display: grid;
+    gap: .75rem;
+    grid-template-columns: auto auto auto;
+}
+
+.showcaseItem {
+    /* background-color:black; */
+    padding: 3rem 1rem;
+    
+    font-size: 1.5rem;
+    text-align:center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    backdrop-filter: blur(120px);
+    -webkit-transform: scale(1,1);
+    -webkit-transition: all 0.1s ease-in-out;
+	z-index: 0;
+}
+
+.showcaseItem:hover {
+    -webkit-transform: scale(1.1,1.1);
+    -webkit-transition: all 0.3s ease-in-out;
+	z-index: 2;
+}
